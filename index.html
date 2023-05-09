@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de moeda</title>
+</head>
+<body>
+    <div class="converter_container">
+        <div class="converter_content">
+            <h1>Conversor de moedas <i>"reativo"</i></h1>
+            <p>Conversor de moeda simples, destinado para a introdução a Javascript</p>
+        </div>
+        <div class="converter">
+            <div class="converter_result hide">
+                <h1></h1>
+            </div>
+            <div class="converter_inputs">
+                <div class="first_moeda">
+                    <label for="converter_input">
+                        R$<input type="text" name="first_value" class="converter_input" placeholder="0,00">BR
+                    </label>
+                    <h2>Para:</h2>
+                    <select class="converter_moeda">
+                        <option value="USD" selected>Dólar dos Estados Unidos</option>
+                        <option value="JPY">Iene</option>
+                        <option value="EUR">Euro</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
